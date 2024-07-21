@@ -14,5 +14,8 @@ public class OperadoresUnarios {
 		// Forma postfix
 		++a;
 		--a;
+		
+		System.out.println(a);
+		System.out.println(b);
 	}
 }

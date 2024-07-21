@@ -10,6 +10,8 @@ public class OperadoresDeAtribuicao {
 		int d = 0;
 		d += b;
 		
+		System.out.println(a + "" + c + "" + d);
+		
 		/**
 		 * Formas reduzidas:
 		 * +=
