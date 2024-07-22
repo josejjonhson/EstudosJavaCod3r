@@ -8,7 +8,7 @@ public class Break2 {
 		// Devemos evitar!!!
 
 		externo: for (int i = 0; i < 3; i++) { // Rotulamos o for externo e queremos que o break atue nele.
-			interno: for (int j = 0; j < 3; j++) {
+			for (int j = 0; j < 3; j++) {
 
 				if (i == 1) {
 					break externo;
