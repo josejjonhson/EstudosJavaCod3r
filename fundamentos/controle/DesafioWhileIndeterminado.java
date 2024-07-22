@@ -9,6 +9,7 @@ public class DesafioWhileIndeterminado {
 		Scanner in = new Scanner(System.in);
 		
 		String repete = null;
+		
 		while(!"parar".equalsIgnoreCase(repete)) {
  			System.out.println("Entrando no loop novamente!");
 			System.out.print("Digite alguma coisa >> ");
