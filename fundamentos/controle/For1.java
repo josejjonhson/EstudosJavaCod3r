@@ -14,5 +14,15 @@ public class For1 {
 			System.out.println("O valor de x é >> " + x);
 			x++;
 		}
+		
+		// For infinito
+//		for(;true;) {
+//			System.out.println("LOOP");
+//		}
+		
+		// Outra notação do for infinito
+		for(;;) {
+			System.out.println("OUTRO LOOP");
+		}
 	}
 }
