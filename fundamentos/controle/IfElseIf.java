@@ -25,5 +25,6 @@ public class IfElseIf {
 		} else {
 			System.out.println("Conceito E");
 		}
+		in.close();
 	}
 }
