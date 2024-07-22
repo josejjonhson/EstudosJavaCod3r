@@ -16,6 +16,6 @@ public class IfElse {
 		} else {
 			System.out.println("O número é Impar!");
 		}
-		
+		in.close();
 	}
 }
