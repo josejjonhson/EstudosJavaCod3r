@@ -7,5 +7,12 @@ public class For1 {
 		for(int c = 0; c < 10; c++) {
 			System.out.println("Olá, Mundo!");
 		}
+		
+		// Outra escrita possível:
+		int x = 0;
+		for(;x < 10;) {
+			System.out.println("O valor de x é >> " + x);
+			x++;
+		}
 	}
 }
