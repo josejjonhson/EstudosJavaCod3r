@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.outros;
 
 // Com o comando (Ctrl + Shift + O) os imports são organizados
 import java.util.Date;

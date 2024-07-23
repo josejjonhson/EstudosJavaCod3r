@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.outros;
 
 /**
  * Isso é um javadoc Essa classe representa ...
