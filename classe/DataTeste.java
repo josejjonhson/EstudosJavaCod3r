@@ -14,5 +14,10 @@ public class DataTeste {
 		d2.mes = 01;
 		d2.ano = 2001;
 		
+		String dataFormatada1 = "Primeira data formatada: " + d1.obterDataFormatada();
+		String dataFormatada2 = "Segunda data formatada: " + d2.obterDataFormatada();
+		
+		System.out.println(dataFormatada1);
+		System.out.println(dataFormatada2);
 	}
 }
