@@ -4,13 +4,11 @@ public class ProdutoTeste {
 
 	public static void main(String[] args) {
 		
-		Produto p1 = new Produto();
-		p1.nome = "Guitarra";
+		Produto p1 = new Produto("Guitarra");
 		p1.preco = 2500.00;
 		p1.desconto = 0.10;
 		
 		var p2 = new Produto();
-		p2.nome = "Violão";
 		p2.preco = 2000.00;
 		p2.desconto = 0.25;
 		

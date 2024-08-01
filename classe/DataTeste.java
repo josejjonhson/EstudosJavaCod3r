@@ -4,15 +4,12 @@ public class DataTeste {
 
 	public static void main(String[] args) {
 		
-		Data d1 = new Data();
+		Data d1 = new Data(12, 12, 2003);
 		d1.dia = 12;
 		d1.mes = 12;
 		d1.ano = 2003;
 		
 		Data d2 = new Data();
-		d2.dia = 01;
-		d2.mes = 01;
-		d2.ano = 2001;
 		
 		String dataFormatada1 = "Primeira data formatada: " + d1.obterDataFormatada();
 		String dataFormatada2 = "Segunda data formatada: " + d2.obterDataFormatada();
