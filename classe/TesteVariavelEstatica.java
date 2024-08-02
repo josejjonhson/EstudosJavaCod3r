@@ -14,8 +14,8 @@ public class TesteVariavelEstatica {
 		TesteVariavelEstatica t1 = new TesteVariavelEstatica(1000);
 		TesteVariavelEstatica t2 = new TesteVariavelEstatica(5000);
 		
-		System.out.println("ID t1 = " + t1.ID);
-		System.out.println("ID t2 = " + t2.ID);
+		System.out.println("ID t1 = " + TesteVariavelEstatica.ID);
+		System.out.println("ID t2 = " + TesteVariavelEstatica.ID);
 		System.out.println("valor t1 = " + t1.valor);
 		System.out.println("valor t2 = " + t2.valor);
 	}

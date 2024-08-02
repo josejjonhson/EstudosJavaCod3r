@@ -4,16 +4,14 @@ public class ProdutoTeste {
 
 	public static void main(String[] args) {
 		
-		Produto p1 = new Produto("Guitarra");
-		p1.preco = 2500.00;
-		p1.desconto = 0.10;
+		Produto p1 = new Produto("Guitarra", 1200.50);
 		
-		var p2 = new Produto();
-		p2.preco = 2000.00;
-		p2.desconto = 0.25;
+		var p2 = new Produto("Violão Strinberg", 2000.0);
 		
-		System.out.println(p1.nome);
-		System.out.println(p2.nome);
+		Produto.desconto = 0.50;
+		
+		System.out.println(p1.nome + " " + p1.precoComDesconto());
+		System.out.println(p2.nome + " " + p2.precoComDesconto());
 		
 		double precoFinal1 = p1.precoComDesconto();
 		double precoFinal2 = p2.precoComDesconto();
