@@ -15,6 +15,6 @@ public class EqualsEHashcode {
 		System.out.println(u1 == u2);
 		System.out.println(u1.equals(u2)); // Todo objeto tem o equals disponível para uso
 		
-		System.out.println(u2.equals(new Data()));
+		// System.out.println(u2.equals(new Data()));
 	}
 }
